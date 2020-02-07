@@ -1,0 +1,509 @@
+model: ../example_files/nheptane.cti
+
+targets:
+  - NC7H16
+
+retained-species:
+  - O2
+  - N2
+  - NC7H16
+
+method: PFA
+error: 5.0
+
+autoignition-conditions:
+- kind: constant volume
+  pressure: 1.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 800
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1000
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1200
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1400
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 1.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 11.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 0.5
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.0
+
+- kind: constant volume
+  pressure: 21.0
+  temperature: 1600
+  end-time: 10.0
+  fuel:
+    NC7H16: 1.0
+  oxidizer:
+    O2: 1.0
+    N2: 3.76
+  equivalence-ratio: 1.5
+
